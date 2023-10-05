@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .util-items-row {
+        @apply flex flex-row gap-2 items-center;
+    }
+}
+
+@keyframes fadeLeft {
+    0% {
+        transform: translateX(-4rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
